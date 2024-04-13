@@ -1,0 +1,1 @@
+A Technical Quiz App Made using react concepts like useState, useEffect, contextAPI. TailwindCSS for styling.
