@@ -42,6 +42,30 @@ body {
   }
 }
 
+.result-modal {
+  border: none;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.result-modal[open] {
+  animation: slide-in-from-top 0.35s ease-out;
+}
+
+.result-modal::backdrop {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+@keyframes slide-in-from-top{
+  0%{
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 
 /* 
 header {

@@ -16,7 +16,7 @@ const AnsCalcProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    if (answeredCount === 5) {
+    if(answeredCount === 5) {
       setGameOver(true);
     }
   }, [answeredCount]);
